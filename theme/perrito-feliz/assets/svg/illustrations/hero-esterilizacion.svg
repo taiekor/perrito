@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" fill="none" aria-labelledby="est-title" role="img">
+  <title id="est-title">Perro descansando en cobija post cirugia</title>
+
+  <!-- BG -->
+  <circle cx="300" cy="260" r="230" fill="#EDF7F1"/>
+  <circle cx="300" cy="260" r="195" fill="#FFFFFF"/>
+
+  <!-- Bed/blanket base -->
+  <ellipse cx="300" cy="390" rx="220" ry="50" fill="#2D8659" opacity="0.15"/>
+  <ellipse cx="300" cy="395" rx="200" ry="38" fill="#2D8659" opacity="0.25"/>
+
+  <!-- Blanket wave pattern -->
+  <path d="M100 360c40-20 80-20 120 0s80 20 120 0 80-20 120 0 80 20 120 0v50H100z" fill="#4FA577"/>
+  <path d="M110 370c35-15 75-15 115 0s75 15 115 0 75-15 115 0 75 15 115 0v50H110z" fill="#2D8659"/>
+
+  <!-- Dog lying down, side view -->
+  <g>
+    <!-- Body horizontal -->
+    <ellipse cx="320" cy="320" rx="140" ry="45" fill="#D7B98A"/>
+    <!-- Lighter belly -->
+    <ellipse cx="320" cy="335" rx="120" ry="25" fill="#FBF6EC"/>
+
+    <!-- Back leg relaxed -->
+    <ellipse cx="400" cy="355" rx="28" ry="15" fill="#A8895F"/>
+    <ellipse cx="210" cy="355" rx="28" ry="15" fill="#A8895F"/>
+
+    <!-- Head on pillow (left side) -->
+    <circle cx="180" cy="290" r="55" fill="#D7B98A"/>
+    <!-- Face -->
+    <ellipse cx="175" cy="298" rx="42" ry="36" fill="#FBF6EC"/>
+    <!-- Snout forward -->
+    <ellipse cx="130" cy="305" rx="25" ry="18" fill="#FBF6EC"/>
+
+    <!-- Closed sleepy eye -->
+    <path d="M170 280c5-6 12-6 17 0" stroke="#1A2E3D" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+
+    <!-- Nose -->
+    <ellipse cx="110" cy="305" rx="8" ry="6" fill="#1A2E3D"/>
+
+    <!-- Mouth resting -->
+    <path d="M110 315c5 2 10 2 15 0" stroke="#1A2E3D" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+    <!-- Ear down -->
+    <path d="M195 245c10-20 30-15 35 5s-5 40-20 40-25-20-15-45z" fill="#A8895F"/>
+
+    <!-- "Zzz" sleep indicator -->
+    <text x="240" y="220" fill="#2D8659" font-family="Fraunces, serif" font-weight="700" font-size="32" opacity="0.6">z</text>
+    <text x="260" y="195" fill="#2D8659" font-family="Fraunces, serif" font-weight="700" font-size="26" opacity="0.5">z</text>
+    <text x="278" y="175" fill="#2D8659" font-family="Fraunces, serif" font-weight="700" font-size="20" opacity="0.4">z</text>
+
+    <!-- Bandage wrapped around body (recovery) -->
+    <g stroke="#FFFFFF" stroke-width="14" fill="none" stroke-linecap="round">
+      <path d="M280 305c20-5 40-5 60 0"/>
+    </g>
+    <g stroke="#F0F4F6" stroke-width="14" fill="none" stroke-linecap="round">
+      <path d="M280 320c20 5 40 5 60 0"/>
+    </g>
+    <!-- Red cross on bandage -->
+    <g transform="translate(305 305)">
+      <rect x="-8" y="-3" width="16" height="6" rx="1" fill="#D8352A"/>
+      <rect x="-3" y="-8" width="6" height="16" rx="1" fill="#D8352A"/>
+    </g>
+
+    <!-- Tail relaxed -->
+    <path d="M455 320c25 10 30 25 20 40" stroke="#A8895F" stroke-width="18" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Medical icon floating top-right -->
+  <g transform="translate(470 100)">
+    <rect x="0" y="0" width="60" height="60" rx="12" fill="#FFFFFF" stroke="#2D8659" stroke-width="4"/>
+    <path d="M30 18v24M18 30h24" stroke="#2D8659" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Heart shield top-left -->
+  <g transform="translate(70 110)">
+    <path d="M40 5c-15 0-30 10-30 25 0 25 30 40 30 40s30-15 30-40c0-15-15-25-30-25z" fill="#2D8659"/>
+    <path d="M40 25c-3-3-8-3-8 2 0 4 5 7 8 10 3-3 8-6 8-10 0-5-5-5-8-2z" fill="#FBF6EC"/>
+  </g>
+</svg>

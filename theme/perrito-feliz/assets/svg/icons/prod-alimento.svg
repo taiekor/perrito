@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+  <path d="M20 18c0-4 4-6 6-6h28c2 0 6 2 6 6v48c0 4-3 6-6 6H26c-3 0-6-2-6-6z" fill="currentColor" opacity="0.15"/>
+  <path d="M20 18c0-4 4-6 6-6h28c2 0 6 2 6 6v48c0 4-3 6-6 6H26c-3 0-6-2-6-6z" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M28 24h24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  <rect x="26" y="32" width="28" height="20" rx="2" fill="currentColor" opacity="0.35"/>
+  <circle cx="40" cy="42" r="5" fill="currentColor" opacity="0.6"/>
+  <ellipse cx="33" cy="38" rx="2" ry="3" fill="currentColor"/>
+  <ellipse cx="47" cy="38" rx="2" ry="3" fill="currentColor"/>
+  <ellipse cx="36" cy="34" rx="1.8" ry="2.5" fill="currentColor"/>
+  <ellipse cx="44" cy="34" rx="1.8" ry="2.5" fill="currentColor"/>
+  <text x="40" y="65" fill="currentColor" text-anchor="middle" font-family="Inter, sans-serif" font-weight="700" font-size="8">PREMIUM</text>
+</svg>

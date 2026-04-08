@@ -1,0 +1,108 @@
+/* Equipo (team) page + single miembro */
+
+.team-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+	gap: var(--sp-6);
+}
+
+.miembro-hero {
+	padding: var(--sp-16) 0;
+	background: linear-gradient(180deg, var(--c-accent-light) 0%, var(--c-white) 100%);
+}
+.miembro-hero__grid {
+	display: grid;
+	grid-template-columns: 320px 1fr;
+	gap: var(--sp-12);
+	align-items: center;
+}
+@media (max-width: 768px) {
+	.miembro-hero__grid { grid-template-columns: 1fr; }
+}
+.miembro-avatar {
+	width: 280px;
+	height: 280px;
+	border-radius: var(--radius-full);
+	background: linear-gradient(135deg, var(--c-primary-50), var(--c-accent));
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--c-primary);
+	margin: 0 auto;
+	box-shadow: var(--shadow-lg);
+}
+.miembro-avatar svg { width: 70%; height: 70%; }
+.miembro-cargo {
+	color: var(--c-primary);
+	font-size: var(--fs-sm);
+	font-weight: var(--fw-semibold);
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+	margin-bottom: var(--sp-3);
+}
+.miembro-registro {
+	display: inline-flex;
+	align-items: center;
+	gap: var(--sp-2);
+	background: var(--c-primary-50);
+	color: var(--c-primary-dark);
+	padding: var(--sp-2) var(--sp-4);
+	border-radius: var(--radius-full);
+	font-size: var(--fs-xs);
+	font-weight: var(--fw-semibold);
+	margin-top: var(--sp-4);
+}
+
+.miembro-detail {
+	padding: var(--sp-16) 0;
+}
+.miembro-detail__grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+	gap: var(--sp-6);
+}
+.miembro-block {
+	background: var(--c-white);
+	border: 1px solid var(--c-gray-100);
+	border-radius: var(--radius-lg);
+	padding: var(--sp-8);
+}
+.miembro-block h3 {
+	font-size: var(--fs-lg);
+	margin-bottom: var(--sp-5);
+	display: flex;
+	align-items: center;
+	gap: var(--sp-3);
+}
+.miembro-block h3::before {
+	content: '';
+	width: 32px;
+	height: 32px;
+	border-radius: var(--radius-sm);
+	background: var(--c-primary-50);
+	flex-shrink: 0;
+}
+.miembro-block ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	gap: var(--sp-3);
+}
+.miembro-block li {
+	font-size: var(--fs-sm);
+	color: var(--c-gray-700);
+	padding-left: var(--sp-5);
+	position: relative;
+}
+.miembro-block li::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 10px;
+	width: 6px;
+	height: 6px;
+	background: var(--c-primary);
+	border-radius: 50%;
+}

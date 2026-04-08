@@ -1,0 +1,21 @@
+/*
+Theme Name: Perrito Feliz
+Theme URI: https://perritofeliz.cl
+Author: Perrito Feliz Team
+Author URI: https://perritofeliz.cl
+Description: Tema custom premium para la clinica veterinaria Perrito Feliz. Diseno responsivo, animaciones con anime.js v4, ilustraciones SVG, SEO profundo (schema.org LocalBusiness/VeterinaryCare/Service/Product), custom post types para Servicios, Productos, Equipo, Planes y Landings para Google Ads. Optimizado para Hostinger.
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.5
+Requires PHP: 7.4
+License: GPL v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: perrito-feliz
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, block-styles, wide-blocks
+*/
+
+/*
+ * This file is required by WordPress.
+ * All actual styles are loaded from assets/css/main.css via wp_enqueue_style.
+ * See inc/enqueue.php for details.
+ */

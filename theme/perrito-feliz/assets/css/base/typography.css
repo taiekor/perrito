@@ -1,0 +1,152 @@
+/* Typography */
+
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('../../fonts/Inter-Regular.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+	src: url('../../fonts/Inter-Medium.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url('../../fonts/Inter-SemiBold.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url('../../fonts/Inter-Bold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Fraunces';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('../../fonts/Fraunces-Regular.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Fraunces';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url('../../fonts/Fraunces-SemiBold.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Fraunces';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url('../../fonts/Fraunces-Bold.woff2') format('woff2');
+}
+
+body {
+	font-family: var(--ff-body);
+	font-size: var(--fs-base);
+	font-weight: var(--fw-normal);
+	color: var(--c-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--ff-heading);
+	font-weight: var(--fw-semibold);
+	line-height: var(--lh-tight);
+	color: var(--c-gray-900);
+	letter-spacing: -0.02em;
+}
+
+h1 { font-size: clamp(2.25rem, 5vw + 1rem, 4rem); }
+h2 { font-size: clamp(1.75rem, 3vw + 1rem, 2.75rem); }
+h3 { font-size: clamp(1.375rem, 1.5vw + 1rem, 1.875rem); }
+h4 { font-size: var(--fs-xl); }
+h5 { font-size: var(--fs-lg); }
+h6 { font-size: var(--fs-md); }
+
+p {
+	line-height: var(--lh-relaxed);
+	color: var(--c-gray-700);
+}
+
+a {
+	color: var(--c-primary);
+	transition: color var(--t-fast) var(--ease-out);
+}
+a:hover {
+	color: var(--c-primary-dark);
+}
+
+strong, b { font-weight: var(--fw-semibold); }
+
+/* Prose for editor/blog content */
+.prose {
+	max-width: 72ch;
+	color: var(--c-gray-700);
+	font-size: var(--fs-md);
+	line-height: var(--lh-relaxed);
+}
+.prose > * + * { margin-top: 1.25em; }
+.prose h2, .prose h3, .prose h4 {
+	margin-top: 2em;
+	margin-bottom: 0.5em;
+	color: var(--c-gray-900);
+}
+.prose h2 { font-size: var(--fs-2xl); }
+.prose h3 { font-size: var(--fs-xl); }
+.prose ul, .prose ol {
+	padding-left: 1.5em;
+}
+.prose ul { list-style: disc; }
+.prose ol { list-style: decimal; }
+.prose li { margin-bottom: 0.5em; }
+.prose a {
+	color: var(--c-primary);
+	text-decoration: underline;
+	text-decoration-thickness: 1px;
+	text-underline-offset: 3px;
+}
+.prose blockquote {
+	border-left: 4px solid var(--c-primary);
+	padding-left: var(--sp-6);
+	margin-left: 0;
+	font-style: italic;
+	color: var(--c-gray-700);
+	font-size: var(--fs-lg);
+}
+.prose img, .prose svg {
+	border-radius: var(--radius-lg);
+	margin: var(--sp-8) 0;
+}
+
+/* Utility text styles */
+.eyebrow {
+	display: inline-block;
+	font-family: var(--ff-body);
+	font-size: var(--fs-sm);
+	font-weight: var(--fw-semibold);
+	text-transform: uppercase;
+	letter-spacing: 0.12em;
+	color: var(--c-primary);
+	margin-bottom: var(--sp-3);
+}
+
+.lead {
+	font-size: var(--fs-lg);
+	line-height: var(--lh-relaxed);
+	color: var(--c-gray-700);
+}
+
+.text-muted { color: var(--c-text-muted); }
+.text-primary { color: var(--c-primary); }
+.text-dark { color: var(--c-gray-900); }
+.text-center { text-align: center; }

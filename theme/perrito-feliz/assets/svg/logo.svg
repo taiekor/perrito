@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" aria-hidden="true" role="img">
+  <!-- Rounded background shape -->
+  <rect x="4" y="4" width="56" height="56" rx="18" fill="#EDF7F1"/>
+  <!-- Paw print stylized -->
+  <!-- Main pad -->
+  <ellipse cx="32" cy="40" rx="10" ry="8" fill="#2D8659"/>
+  <!-- Upper left toe -->
+  <ellipse cx="20" cy="27" rx="4" ry="5.5" fill="#2D8659"/>
+  <!-- Upper center-left toe -->
+  <ellipse cx="27" cy="21" rx="3.8" ry="5" fill="#2D8659"/>
+  <!-- Upper center-right toe -->
+  <ellipse cx="37" cy="21" rx="3.8" ry="5" fill="#2D8659"/>
+  <!-- Upper right toe -->
+  <ellipse cx="44" cy="27" rx="4" ry="5.5" fill="#2D8659"/>
+  <!-- Heart accent inside main pad -->
+  <path d="M32 38c-1.6-1.8-4.5-1.4-4.5 1.1 0 2 2.6 3.5 4.5 4.9 1.9-1.4 4.5-2.9 4.5-4.9 0-2.5-2.9-2.9-4.5-1.1z" fill="#E97B3F"/>
+</svg>

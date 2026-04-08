@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" fill="none" aria-labelledby="clinica-title" role="img">
+  <title id="clinica-title">Ilustracion clinica veterinaria exterior</title>
+
+  <!-- BG -->
+  <rect width="600" height="450" fill="#FBF6EC"/>
+  <!-- Sky clouds -->
+  <ellipse cx="120" cy="80" rx="40" ry="15" fill="#FFFFFF" opacity="0.7"/>
+  <ellipse cx="500" cy="100" rx="50" ry="18" fill="#FFFFFF" opacity="0.7"/>
+
+  <!-- Ground -->
+  <rect x="0" y="380" width="600" height="70" fill="#2D8659" opacity="0.15"/>
+
+  <!-- Clinic building -->
+  <g>
+    <!-- Main building -->
+    <rect x="140" y="180" width="320" height="200" fill="#FFFFFF" stroke="#1A2E3D" stroke-width="3"/>
+    <!-- Roof -->
+    <path d="M120 180h360l-40-50h-280z" fill="#2D8659" stroke="#1A2E3D" stroke-width="3"/>
+    <!-- Roof cross -->
+    <rect x="290" y="100" width="20" height="40" rx="2" fill="#D8352A"/>
+    <rect x="280" y="110" width="40" height="20" rx="2" fill="#D8352A"/>
+
+    <!-- Door -->
+    <rect x="270" y="280" width="60" height="100" rx="2" fill="#E97B3F"/>
+    <rect x="278" y="290" width="44" height="60" rx="1" fill="#C65F27"/>
+    <circle cx="318" cy="332" r="3" fill="#FFFFFF"/>
+
+    <!-- Windows -->
+    <rect x="170" y="210" width="70" height="60" rx="2" fill="#F5EDE0" stroke="#1A2E3D" stroke-width="2"/>
+    <line x1="205" y1="210" x2="205" y2="270" stroke="#1A2E3D" stroke-width="2"/>
+    <line x1="170" y1="240" x2="240" y2="240" stroke="#1A2E3D" stroke-width="2"/>
+
+    <rect x="360" y="210" width="70" height="60" rx="2" fill="#F5EDE0" stroke="#1A2E3D" stroke-width="2"/>
+    <line x1="395" y1="210" x2="395" y2="270" stroke="#1A2E3D" stroke-width="2"/>
+    <line x1="360" y1="240" x2="430" y2="240" stroke="#1A2E3D" stroke-width="2"/>
+
+    <!-- Sign -->
+    <rect x="180" y="150" width="240" height="24" rx="4" fill="#1A2E3D"/>
+    <text x="300" y="168" fill="#FFFFFF" text-anchor="middle" font-family="Inter, sans-serif" font-weight="700" font-size="14">PERRITO FELIZ</text>
+  </g>
+
+  <!-- Trees -->
+  <g transform="translate(30 300)">
+    <rect x="20" y="50" width="10" height="30" fill="#8B4513"/>
+    <circle cx="25" cy="40" r="28" fill="#2D8659"/>
+    <circle cx="15" cy="35" r="20" fill="#4FA577"/>
+    <circle cx="35" cy="35" r="20" fill="#4FA577"/>
+  </g>
+  <g transform="translate(510 310)">
+    <rect x="20" y="45" width="10" height="30" fill="#8B4513"/>
+    <circle cx="25" cy="35" r="26" fill="#2D8659"/>
+    <circle cx="15" cy="30" r="18" fill="#4FA577"/>
+    <circle cx="35" cy="30" r="18" fill="#4FA577"/>
+  </g>
+
+  <!-- Tiny dog silhouette in front -->
+  <g transform="translate(200 350)">
+    <ellipse cx="20" cy="20" rx="18" ry="10" fill="#1A2E3D"/>
+    <circle cx="6" cy="12" r="8" fill="#1A2E3D"/>
+    <path d="M0 8l3-6 3 6" fill="#1A2E3D"/>
+  </g>
+  <g transform="translate(360 355)">
+    <ellipse cx="18" cy="15" rx="16" ry="8" fill="#1A2E3D"/>
+    <circle cx="32" cy="10" r="7" fill="#1A2E3D"/>
+  </g>
+
+  <!-- Paw print decorations in sky -->
+  <g transform="translate(70 60)" opacity="0.3">
+    <circle cx="10" cy="15" r="3" fill="#2D8659"/>
+    <circle cx="4" cy="8" r="2" fill="#2D8659"/>
+    <circle cx="9" cy="4" r="2" fill="#2D8659"/>
+    <circle cx="14" cy="4" r="2" fill="#2D8659"/>
+    <circle cx="16" cy="8" r="2" fill="#2D8659"/>
+  </g>
+</svg>

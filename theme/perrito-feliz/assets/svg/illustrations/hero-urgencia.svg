@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" fill="none" aria-labelledby="urg-title" role="img">
+  <title id="urg-title">Stetoscopio y reloj de urgencias 24/7</title>
+
+  <!-- BG -->
+  <circle cx="300" cy="260" r="230" fill="#FDECEA"/>
+  <circle cx="300" cy="260" r="195" fill="#FFFFFF"/>
+
+  <!-- Clock face -->
+  <g transform="translate(150 120)">
+    <circle cx="150" cy="150" r="145" fill="#FFFFFF" stroke="#1A2E3D" stroke-width="8"/>
+    <circle cx="150" cy="150" r="130" fill="#F5EDE0"/>
+
+    <!-- 12 hour marks -->
+    <g stroke="#1A2E3D" stroke-width="4" stroke-linecap="round">
+      <line x1="150" y1="30" x2="150" y2="50"/>
+      <line x1="150" y1="250" x2="150" y2="270"/>
+      <line x1="30" y1="150" x2="50" y2="150"/>
+      <line x1="250" y1="150" x2="270" y2="150"/>
+    </g>
+    <g stroke="#6B8293" stroke-width="2" stroke-linecap="round">
+      <line x1="210" y1="45" x2="204" y2="56"/>
+      <line x1="254" y1="90" x2="243" y2="96"/>
+      <line x1="254" y1="210" x2="243" y2="204"/>
+      <line x1="210" y1="255" x2="204" y2="244"/>
+      <line x1="90" y1="255" x2="96" y2="244"/>
+      <line x1="46" y1="210" x2="57" y2="204"/>
+      <line x1="46" y1="90" x2="57" y2="96"/>
+      <line x1="90" y1="45" x2="96" y2="56"/>
+    </g>
+
+    <!-- 24/7 text in center -->
+    <text x="150" y="145" fill="#2D8659" text-anchor="middle" font-family="Inter, sans-serif" font-weight="800" font-size="52">24/7</text>
+    <text x="150" y="175" fill="#6B8293" text-anchor="middle" font-family="Inter, sans-serif" font-weight="600" font-size="14">URGENCIAS</text>
+
+    <!-- Hour hand (red, urgent) -->
+    <line x1="150" y1="150" x2="150" y2="85" stroke="#D8352A" stroke-width="6" stroke-linecap="round"/>
+    <!-- Minute hand -->
+    <line x1="150" y1="150" x2="205" y2="150" stroke="#1A2E3D" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="150" cy="150" r="8" fill="#D8352A"/>
+  </g>
+
+  <!-- Stethoscope curving around -->
+  <g fill="none" stroke="#2D8659" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M80 180c-30 10-50 40-50 80s25 80 70 80c40 0 75-30 75-80"/>
+    <path d="M520 180c30 10 50 40 50 80s-25 80-70 80c-40 0-75-30-75-80"/>
+  </g>
+  <!-- Earpieces -->
+  <circle cx="80" cy="180" r="14" fill="#1A2E3D"/>
+  <circle cx="520" cy="180" r="14" fill="#1A2E3D"/>
+
+  <!-- Chest piece (diaphragm) at bottom of clock -->
+  <g transform="translate(270 400)">
+    <circle cx="30" cy="30" r="32" fill="#2D8659"/>
+    <circle cx="30" cy="30" r="24" fill="#4FA577"/>
+    <circle cx="30" cy="30" r="12" fill="#1F5F3E"/>
+  </g>
+
+  <!-- Pulse line graphic -->
+  <g stroke="#D8352A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M50 450h60l15-30 15 60 15-30h130l15-20 10 20h170"/>
+  </g>
+
+  <!-- Small alert dots -->
+  <circle cx="480" cy="80" r="6" fill="#D8352A"/>
+  <circle cx="120" cy="100" r="5" fill="#2D8659"/>
+  <circle cx="540" cy="420" r="5" fill="#E97B3F"/>
+</svg>

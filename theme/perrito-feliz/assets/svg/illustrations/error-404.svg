@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" aria-labelledby="e404-title" role="img">
+  <title id="e404-title">404 - Pagina no encontrada</title>
+
+  <!-- BG -->
+  <circle cx="200" cy="150" r="130" fill="#EDF7F1"/>
+
+  <!-- 404 text -->
+  <text x="200" y="135" fill="#2D8659" text-anchor="middle" font-family="Fraunces, serif" font-weight="800" font-size="90">404</text>
+
+  <!-- Confused dog -->
+  <g transform="translate(125 150)">
+    <ellipse cx="75" cy="80" rx="60" ry="35" fill="#D7B98A"/>
+    <ellipse cx="75" cy="88" rx="48" ry="22" fill="#FBF6EC"/>
+
+    <!-- Head -->
+    <circle cx="75" cy="45" r="38" fill="#D7B98A"/>
+    <ellipse cx="75" cy="52" rx="28" ry="22" fill="#FBF6EC"/>
+
+    <!-- Tilted ears -->
+    <path d="M40 30c-5-15 5-25 12-22 5 2 7 10 5 18s-10 12-17 4z" fill="#A8895F"/>
+    <path d="M110 30c5-15-5-25-12-22-5 2-7 10-5 18s10 12 17 4z" fill="#A8895F"/>
+
+    <!-- Confused eyes -->
+    <circle cx="63" cy="46" r="4" fill="#1A2E3D"/>
+    <circle cx="87" cy="46" r="4" fill="#1A2E3D"/>
+
+    <!-- Tilted mouth (confused) -->
+    <path d="M68 62c3-2 7-2 10 0" stroke="#1A2E3D" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+    <!-- Nose -->
+    <ellipse cx="75" cy="56" rx="4" ry="3" fill="#1A2E3D"/>
+
+    <!-- Question mark above head -->
+    <text x="75" y="10" fill="#E97B3F" text-anchor="middle" font-family="Fraunces, serif" font-weight="800" font-size="24">?</text>
+  </g>
+</svg>

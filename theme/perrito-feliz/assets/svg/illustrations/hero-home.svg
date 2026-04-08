@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" fill="none" aria-labelledby="hero-home-title" role="img">
+  <title id="hero-home-title">Ilustracion perro y gato con corazon medico</title>
+
+  <!-- Soft background circle -->
+  <circle cx="300" cy="260" r="230" fill="#F5EDE0"/>
+  <circle cx="300" cy="260" r="195" fill="#FBF6EC"/>
+
+  <!-- Dotted decorative circles -->
+  <circle cx="480" cy="120" r="4" fill="#E97B3F"/>
+  <circle cx="100" cy="400" r="4" fill="#2D8659"/>
+  <circle cx="500" cy="360" r="4" fill="#2D8659"/>
+  <circle cx="110" cy="130" r="4" fill="#E97B3F"/>
+  <circle cx="550" cy="240" r="3" fill="#2D8659"/>
+  <circle cx="50" cy="260" r="3" fill="#E97B3F"/>
+
+  <!-- Dog body -->
+  <g>
+    <!-- Dog body rounded -->
+    <path d="M220 340c0-44 36-80 80-80h20c44 0 80 36 80 80v55c0 11-9 20-20 20H240c-11 0-20-9-20-20z" fill="#2D8659"/>
+    <!-- Lighter belly -->
+    <path d="M240 370c0-18 14-32 32-32h56c18 0 32 14 32 32v25H240z" fill="#4FA577"/>
+
+    <!-- Dog head -->
+    <circle cx="310" cy="240" r="75" fill="#2D8659"/>
+    <!-- Face lighter -->
+    <ellipse cx="310" cy="260" rx="55" ry="48" fill="#F5EDE0"/>
+
+    <!-- Ears -->
+    <path d="M238 215c-8-30 5-55 20-58 12-2 15 10 12 25s-6 35-15 40-14-3-17-7z" fill="#1F5F3E"/>
+    <path d="M382 215c8-30-5-55-20-58-12-2-15 10-12 25s6 35 15 40 14-3 17-7z" fill="#1F5F3E"/>
+    <!-- Ear inner -->
+    <path d="M250 200c-4-18 3-34 12-36 6-1 8 5 7 15s-3 22-8 25-8-1-11-4z" fill="#E97B3F" opacity="0.6"/>
+    <path d="M370 200c4-18-3-34-12-36-6-1-8 5-7 15s3 22 8 25 8-1 11-4z" fill="#E97B3F" opacity="0.6"/>
+
+    <!-- Eyes -->
+    <circle cx="290" cy="250" r="7" fill="#1A2E3D"/>
+    <circle cx="330" cy="250" r="7" fill="#1A2E3D"/>
+    <circle cx="288" cy="248" r="2.5" fill="#FFFFFF"/>
+    <circle cx="328" cy="248" r="2.5" fill="#FFFFFF"/>
+
+    <!-- Nose -->
+    <ellipse cx="310" cy="272" rx="7" ry="5" fill="#1A2E3D"/>
+    <!-- Mouth smile -->
+    <path d="M300 285c3 5 8 7 10 7s7-2 10-7" stroke="#1A2E3D" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <!-- Tongue -->
+    <path d="M305 287c0 4 2 7 5 7s5-3 5-7z" fill="#E97B3F"/>
+
+    <!-- Paws front -->
+    <ellipse cx="260" cy="405" rx="22" ry="14" fill="#1F5F3E"/>
+    <ellipse cx="340" cy="405" rx="22" ry="14" fill="#1F5F3E"/>
+
+    <!-- Collar with tag -->
+    <rect x="245" y="305" width="130" height="14" rx="4" fill="#E97B3F"/>
+    <circle cx="310" cy="325" r="10" fill="#F5EDE0"/>
+    <path d="M305 323c-1.5-1.6-4-1.3-4 1 0 1.8 2.4 3.2 4 4.5 1.6-1.3 4-2.7 4-4.5 0-2.3-2.5-2.6-4-1z" fill="#E97B3F"/>
+  </g>
+
+  <!-- Cat body (smaller, to the right) -->
+  <g>
+    <!-- Cat body -->
+    <path d="M420 390c0-25 20-45 45-45h10c25 0 45 20 45 45v30c0 6-5 12-12 12H432c-7 0-12-6-12-12z" fill="#1A2E3D"/>
+    <!-- Cat head -->
+    <circle cx="470" cy="350" r="40" fill="#1A2E3D"/>
+    <!-- Ears triangular -->
+    <path d="M438 318l5-20 15 15z" fill="#1A2E3D"/>
+    <path d="M502 318l-5-20-15 15z" fill="#1A2E3D"/>
+    <path d="M443 320l3-12 8 8z" fill="#E97B3F" opacity="0.6"/>
+    <path d="M497 320l-3-12-8 8z" fill="#E97B3F" opacity="0.6"/>
+
+    <!-- Face lighter -->
+    <ellipse cx="470" cy="360" rx="28" ry="22" fill="#F5EDE0"/>
+    <!-- Eyes -->
+    <ellipse cx="460" cy="352" rx="5" ry="6" fill="#2D8659"/>
+    <ellipse cx="480" cy="352" rx="5" ry="6" fill="#2D8659"/>
+    <ellipse cx="460" cy="354" rx="1.5" ry="4" fill="#1A2E3D"/>
+    <ellipse cx="480" cy="354" rx="1.5" ry="4" fill="#1A2E3D"/>
+    <!-- Nose -->
+    <path d="M466 365l4 0 2-3h-8z" fill="#E97B3F"/>
+    <!-- Mouth -->
+    <path d="M470 370l-4 4M470 370l4 4" stroke="#1A2E3D" stroke-width="2" stroke-linecap="round"/>
+    <!-- Whiskers -->
+    <line x1="448" y1="365" x2="432" y2="360" stroke="#1A2E3D" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="448" y1="370" x2="432" y2="372" stroke="#1A2E3D" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="492" y1="365" x2="508" y2="360" stroke="#1A2E3D" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="492" y1="370" x2="508" y2="372" stroke="#1A2E3D" stroke-width="1.5" stroke-linecap="round"/>
+
+    <!-- Tail curved -->
+    <path d="M515 410c25 5 35-15 25-40" stroke="#1A2E3D" stroke-width="12" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Floating medical cross -->
+  <g transform="translate(120 170)">
+    <rect x="0" y="0" width="60" height="60" rx="12" fill="#FFFFFF" stroke="#2D8659" stroke-width="3"/>
+    <rect x="25" y="12" width="10" height="36" rx="3" fill="#2D8659"/>
+    <rect x="12" y="25" width="36" height="10" rx="3" fill="#2D8659"/>
+  </g>
+
+  <!-- Floating heart -->
+  <g transform="translate(450 150)">
+    <path d="M25 45c-10-8-22-16-22-28 0-8 6-14 14-14 5 0 8 3 10 6 2-3 5-6 10-6 8 0 14 6 14 14 0 12-12 20-22 28z" fill="#E97B3F"/>
+    <path d="M20 15c2-2 5-3 8-3" stroke="#FBF6EC" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  </g>
+
+  <!-- Small plus signs decor -->
+  <g stroke="#2D8659" stroke-width="3" stroke-linecap="round">
+    <line x1="90" y1="280" x2="90" y2="296"/>
+    <line x1="82" y1="288" x2="98" y2="288"/>
+  </g>
+  <g stroke="#E97B3F" stroke-width="3" stroke-linecap="round">
+    <line x1="520" y1="90" x2="520" y2="106"/>
+    <line x1="512" y1="98" x2="528" y2="98"/>
+  </g>
+</svg>

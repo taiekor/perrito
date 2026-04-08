@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" fill="none" aria-labelledby="amb-title" role="img">
+  <title id="amb-title">Ambulancia veterinaria con cruz medica</title>
+
+  <!-- Background -->
+  <circle cx="300" cy="260" r="230" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="300" cy="260" r="190" fill="rgba(255,255,255,0.1)"/>
+
+  <!-- Road -->
+  <rect x="50" y="380" width="500" height="6" rx="3" fill="rgba(255,255,255,0.3)"/>
+  <rect x="100" y="378" width="40" height="10" fill="rgba(255,255,255,0.5)"/>
+  <rect x="200" y="378" width="40" height="10" fill="rgba(255,255,255,0.5)"/>
+  <rect x="300" y="378" width="40" height="10" fill="rgba(255,255,255,0.5)"/>
+  <rect x="400" y="378" width="40" height="10" fill="rgba(255,255,255,0.5)"/>
+
+  <!-- Ambulance body -->
+  <g>
+    <!-- Back cargo box -->
+    <rect x="140" y="200" width="260" height="170" rx="12" fill="#FFFFFF"/>
+    <!-- Cab -->
+    <path d="M400 260c0-8 6-14 14-14h40l46 56v68c0 4-4 8-8 8h-92z" fill="#FFFFFF"/>
+    <!-- Front window -->
+    <path d="M410 260c0-4 4-8 8-8h30l38 46h-76z" fill="#2D8659" opacity="0.3"/>
+    <!-- Side window cab -->
+    <rect x="415" y="268" width="30" height="30" rx="3" fill="#2D8659" opacity="0.3"/>
+
+    <!-- Red cross panel -->
+    <rect x="200" y="240" width="100" height="100" rx="8" fill="#D8352A"/>
+    <rect x="240" y="250" width="20" height="80" rx="4" fill="#FFFFFF"/>
+    <rect x="210" y="280" width="80" height="20" rx="4" fill="#FFFFFF"/>
+
+    <!-- Paw print on side -->
+    <g transform="translate(320 260)">
+      <ellipse cx="30" cy="45" rx="18" ry="14" fill="#2D8659"/>
+      <ellipse cx="14" cy="24" rx="7" ry="9" fill="#2D8659"/>
+      <ellipse cx="24" cy="14" rx="6.5" ry="8.5" fill="#2D8659"/>
+      <ellipse cx="36" cy="14" rx="6.5" ry="8.5" fill="#2D8659"/>
+      <ellipse cx="46" cy="24" rx="7" ry="9" fill="#2D8659"/>
+    </g>
+
+    <!-- Text band "VET" -->
+    <rect x="150" y="210" width="180" height="18" rx="3" fill="#1A2E3D"/>
+    <text x="240" y="224" fill="#FFFFFF" text-anchor="middle" font-family="Inter, sans-serif" font-weight="700" font-size="14">PERRITO FELIZ</text>
+
+    <!-- Wheels -->
+    <circle cx="200" cy="385" r="28" fill="#1A2E3D"/>
+    <circle cx="200" cy="385" r="18" fill="#3F5566"/>
+    <circle cx="200" cy="385" r="8" fill="#1A2E3D"/>
+    <circle cx="440" cy="385" r="28" fill="#1A2E3D"/>
+    <circle cx="440" cy="385" r="18" fill="#3F5566"/>
+    <circle cx="440" cy="385" r="8" fill="#1A2E3D"/>
+
+    <!-- Lights on top (red/blue siren) -->
+    <rect x="260" y="188" width="120" height="14" rx="4" fill="#1A2E3D"/>
+    <rect x="270" y="192" width="40" height="6" rx="2" fill="#D8352A"/>
+    <rect x="320" y="192" width="40" height="6" rx="2" fill="#3F7AE9"/>
+
+    <!-- Headlights -->
+    <ellipse cx="498" cy="340" rx="6" ry="8" fill="#FFFAC8"/>
+    <ellipse cx="498" cy="340" rx="3" ry="5" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Motion lines behind -->
+  <g stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.6">
+    <line x1="30" y1="260" x2="90" y2="260"/>
+    <line x1="20" y1="290" x2="80" y2="290"/>
+    <line x1="40" y1="320" x2="100" y2="320"/>
+  </g>
+
+  <!-- Floating plus signs -->
+  <g stroke="#FFFFFF" stroke-width="4" stroke-linecap="round">
+    <line x1="510" y1="100" x2="510" y2="126"/>
+    <line x1="497" y1="113" x2="523" y2="113"/>
+  </g>
+  <g stroke="#FFFFFF" stroke-width="3" stroke-linecap="round">
+    <line x1="80" y1="150" x2="80" y2="168"/>
+    <line x1="71" y1="159" x2="89" y2="159"/>
+  </g>
+
+  <!-- 24/7 badge -->
+  <g transform="translate(420 80)">
+    <circle cx="40" cy="40" r="38" fill="#FFFFFF" stroke="#2D8659" stroke-width="4"/>
+    <text x="40" y="38" fill="#2D8659" text-anchor="middle" font-family="Inter, sans-serif" font-weight="800" font-size="18">24/7</text>
+    <text x="40" y="55" fill="#2D8659" text-anchor="middle" font-family="Inter, sans-serif" font-weight="600" font-size="10">URGENCIAS</text>
+  </g>
+</svg>
